@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    tools:layout_editor_absoluteY="81dp">
+
+    <Button
+        android:id="@+id/P4negative1"
+        android:layout_width="46dp"
+        android:layout_height="41dp"
+        android:layout_marginEnd="76dp"
+        android:layout_marginTop="40dp"
+        android:text="-1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/P4negative5" />
+
+    <Button
+        android:id="@+id/P4negative5"
+        android:layout_width="46dp"
+        android:layout_height="41dp"
+        android:layout_marginEnd="76dp"
+        android:layout_marginTop="168dp"
+        android:text="-5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/P4plus1"
+        android:layout_width="47dp"
+        android:layout_height="42dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="236dp"
+        android:text="+1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/P4negative1" />
+
+    <Button
+        android:id="@+id/P4plus5"
+        android:layout_width="47dp"
+        android:layout_height="44dp"
+        android:layout_marginEnd="76dp"
+        android:layout_marginTop="40dp"
+        android:text="+5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/P4plus1" />
+
+    <Button
+        android:id="@+id/P3minus5"
+        android:layout_width="48dp"
+        android:layout_height="42dp"
+        android:layout_marginEnd="44dp"
+        android:layout_marginTop="376dp"
+        android:text="-5"
+        app:layout_constraintEnd_toStartOf="@+id/P3plus1"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/P3minus1"
+        android:layout_width="48dp"
+        android:layout_height="42dp"
+        android:layout_marginEnd="44dp"
+        android:layout_marginTop="376dp"
+        android:text="-1"
+        app:layout_constraintEnd_toStartOf="@+id/P3Plus5"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/P3plus1"
+        android:layout_width="48dp"
+        android:layout_height="42dp"
+        android:layout_marginEnd="44dp"
+        android:layout_marginTop="376dp"
+        android:text="+1"
+        app:layout_constraintEnd_toEndOf="@+id/P3Plus5"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/P3Plus5"
+        android:layout_width="48dp"
+        android:layout_height="42dp"
+        android:layout_marginEnd="96dp"
+        android:layout_marginTop="376dp"
+        android:text="+5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/P2plus5"
+        android:layout_width="48dp"
+        android:layout_height="42dp"
+        android:layout_marginEnd="96dp"
+        android:layout_marginTop="80dp"
+        android:text="+5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/p1score"
+        android:layout_width="72dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="236dp"
+        android:ems="10"
+        android:text="20"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="28sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/P4Score"
+        android:layout_width="72dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="224dp"
+        android:layout_marginStart="284dp"
+        android:ems="10"
+        android:text="20"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="28sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/Player4"
+        android:layout_width="47dp"
+        android:layout_height="19dp"
+        android:layout_marginStart="296dp"
+        android:layout_marginTop="208dp"
+        android:text="Player4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/Player1"
+        android:layout_width="47dp"
+        android:layout_height="19dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="200dp"
+        android:text="Player1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/p1minus5"
+        android:layout_width="46dp"
+        android:layout_height="41dp"
+        android:layout_marginEnd="232dp"
+        android:layout_marginTop="164dp"
+        android:text="-5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/p1minus1"
+        android:layout_width="46dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="8dp"
+        android:text="-1"
+        app:layout_constraintEnd_toStartOf="@+id/P4negative1"
+        app:layout_constraintHorizontal_bias="0.014"
+        app:layout_constraintStart_toEndOf="@+id/p1score"
+        app:layout_constraintTop_toBottomOf="@+id/p1minus5" />
+
+    <Button
+        android:id="@+id/p1plus5"
+        android:layout_width="47dp"
+        android:layout_height="44dp"
+        android:layout_marginBottom="180dp"
+        android:layout_marginStart="8dp"
+        android:text="+5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/p1score" />
+
+
+    <Button
+        android:id="@+id/p1plus1"
+        android:layout_width="47dp"
+        android:layout_height="42dp"
+        android:layout_marginBottom="40dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:text="+1"
+        app:layout_constraintBottom_toBottomOf="@+id/p1plus5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/p1score" />
+
+    <TextView
+        android:id="@+id/Player3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="464dp"
+        android:text="Player3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/Player2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Player2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/P3Score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="428dp"
+        android:text="20"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textSize="28sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/P2Score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        android:text="20"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textSize="28sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/P2minus1"
+        android:layout_width="48dp"
+        android:layout_height="42dp"
+        android:layout_marginEnd="44dp"
+        android:layout_marginTop="80dp"
+        android:text="-1"
+        app:layout_constraintEnd_toStartOf="@+id/P2plus5"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/P2plus1"
+        android:layout_width="48dp"
+        android:layout_height="42dp"
+        android:layout_marginEnd="48dp"
+        android:layout_marginTop="80dp"
+        android:text="+1"
+        app:layout_constraintEnd_toEndOf="@+id/P2plus5"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/P2minus5"
+        android:layout_width="48dp"
+        android:layout_height="42dp"
+        android:layout_marginEnd="44dp"
+        android:layout_marginTop="80dp"
+        android:text="-5"
+        app:layout_constraintEnd_toStartOf="@+id/P2plus1"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="81dp"
+        android:layout_height="63dp"
+        app:layout_constraintBottom_toTopOf="@+id/P3minus1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/P2minus1" />
+
+</android.support.constraint.ConstraintLayout>
